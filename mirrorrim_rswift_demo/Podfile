@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'mirrorrim_rswift_demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for mirrorrim_rswift_demo
+  pod 'R.swift', '6.1.0'
+  pod 'SnapKit', '5.0.1'
+
+  target 'mirrorrim_rswift_demoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'mirrorrim_rswift_demoUITests' do
+    # Pods for testing
+  end
+
+end
