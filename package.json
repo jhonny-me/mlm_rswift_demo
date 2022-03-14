@@ -5,6 +5,9 @@
   "repository": "https://github.com/jhonny-me/mlm_rswift_demo.git",
   "author": "Johnny Gu <johnny@wiredcraft.com>",
   "license": "MIT",
+  "scripts": {
+    "localize": "mirrorrim"
+  },
   "mirrorrim": {
     "googleFileId": "1Ik0mRByqVFldbAjDvrwGFx_CrM6-fsEKN0IzZnAr7rI",
     "outputDir": "./mirrorrim_rswift_demo/mirrorrim_rswift_demo",
@@ -13,6 +16,6 @@
     ]
   },
   "devDependencies": {
-    "mirrorrim": "^1.0.5"
+    "mirrorrim": "^1.0.6"
   }
 }
